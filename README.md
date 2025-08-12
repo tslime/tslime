@@ -29,4 +29,9 @@ I build fast, reliable systems end‑to‑end — from C/epoll servers and x86_6
   Repo: https://github.com/tslime/SpecialDataStructures
 
 ## Tech
-C, C++, Python, Java, Node.js · x86_64/NASM, SIMD/SSE · epoll/NIO/asyncio · Redis protocol/RESP · LoRA, quantization (4‑bit), PyTorch , TensorFlow· Linux, Docker, Kubernetes
+**Languages:** C, C++, Python, Java  
+**Full Stack:** React, JavaScript/Node.js, Express, REST APIs, PostgreSQL, MySQL  
+**Systems:** x86_64/NASM, SIMD/SSE, epoll/NIO/asyncio, OS-level programming, Redis protocol/RESP, compilers/parsers, robotics & embedded systems  
+**Machine Learning:** ML algorithms (regression, trees, SVM, clustering), deep learning & neural networks, server building for ML, LoRA, 4‑bit quantization, PyTorch, TensorFlow  
+**DevOps & Infra:** Linux, Docker, Kubernetes
+
