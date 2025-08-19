@@ -28,7 +28,8 @@ I build fast, reliable systems end‑to‑end — from C/epoll servers and x86_6
 - **Special Data Structures** — implementations of advanced and uncommon data structures in C, C++, Java, and Python  
   Repo: https://github.com/tslime/SpecialDataStructures
 
-  ## More Projects
+
+## More Projects
 - **Fundamental Algorithms** — core CS algorithms across languages  
   Repo: https://github.com/tslime/FundamentalAlgorithms
 
