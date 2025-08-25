@@ -35,9 +35,12 @@ I build fast, reliable systems end‑to‑end — from C/epoll servers and x86_6
 
 
 ## Tech
-**Languages:** C, C++, Python, Java  
-**Full Stack:** React, JavaScript/Node.js, Express, REST APIs, PostgreSQL, MySQL  
-**Systems:** x86_64/NASM, SIMD/SSE, epoll/NIO/asyncio, OS-level programming, Redis protocol/RESP, compilers/parsers, robotics & embedded systems  
-**Machine Learning:** ML algorithms (regression, trees, SVM, clustering), deep learning & neural networks, server building for ML, LoRA, 4‑bit quantization, PyTorch, TensorFlow  
-**DevOps & Infra:** Linux, Docker, Kubernetes
+
+**Languages**: C, C++, Python, Java  
+**Systems Programming**: x86_64 NASM (SIMD, SSE), socket programming (epoll, NIO, asyncio), Redis protocol (RESP), compilers/parsers, OS-level tools, embedded & robotics  
+**Machine Learning**: Neural networks, ML algorithms (regression, SVM, trees, clustering), deep learning, synthetic data pipelines, LoRA, 4-bit quantization, PyTorch, TensorFlow  
+**Backend & Full Stack**: Node.js, Express, REST APIs, PostgreSQL, MySQL, React  
+**Infra & DevOps**: Linux, Docker, Kubernetes  
+**Tools**: Git, GitHub, LaTeX, CircleCI  
+
 
