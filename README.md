@@ -14,6 +14,13 @@ I build fast, reliable systems end‑to‑end — from C/epoll servers and x86_6
 - SIMD float calculator in x86_64 (NASM, SSE; manual parsing/formatting)
 - Fine‑tuning compact LLMs (Phi‑2) with LoRA + 4‑bit; REST integration
 
+## What I Build
+- Fast backend infra (Redis clone, tokenizer engine, vector DB)
+- From-scratch implementations (hash tables, epoll servers, RESP parser, BPE)
+- End-to-end ML pipelines (LoRA, tokenization, deployment)
+- Cross-language low-level systems (C, C++, Python, NASM, Java, Node.js)
+
+
 ## Selected Projects
 - **Redis Clone in C** — minimalist Redis‑compatible server  
   Repo: https://github.com/tslime/vRedisClone
