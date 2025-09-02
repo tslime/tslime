@@ -41,7 +41,7 @@ I build fast, reliable systems end‑to‑end — from C/epoll servers and x86_6
   Repo: https://github.com/tslime/FundamentalAlgorithms
 
 - **Special Data Structures** — Experimental and advanced structures built from scratch (custom hash tables, HNSW index for vector search, max-heaps for BPE, etc.).  
-  Repo: [SpecialDataStructures](https://github.com/tslime/SpecialDataStructures)
+  Repo: https://github.com/tslime/SpecialDataStructures
 
 
 ## Tech
