@@ -32,9 +32,8 @@ I build fast, reliable systems end‑to‑end — from C/epoll servers and x86_6
   Repo: https://github.com/tslime/LowLevelProgramming/tree/main/Assemblycaclulator
 - **Neural Network from Scratch** — minimal DL framework + training loop  
   Repo: https://github.com/tslime/NeuralNetworkModel
-- **Special Data Structures** — implementations of advanced and uncommon data structures in C, C++, Java, and Python  
-  Repo: https://github.com/tslime/SpecialDataStructures
-
+- **Vector DB** — A vector database built from scratch in C++ using Hierarchical Navigable Small World (HNSW) graphs. Features index-based design (no pointers), custom heaps, and efficient nearest-neighbor search.  
+  Repo: https://github.com/tslime/VectorDB
 
 ## More Projects
 - **Fundamental Algorithms** — core CS algorithms across languages  
