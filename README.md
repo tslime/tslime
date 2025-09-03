@@ -1,6 +1,6 @@
 # Taha Slime
 
-**Software Engineer — ML Systems • Full Stack• Low‑Level**
+**Software & Systems Engineer — ML Systems • Full Stack• Low‑Level**
 
 Montreal, QC · [CV Projects](#selected-projects) · taha.slime@gmail.com
 
