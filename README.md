@@ -36,6 +36,10 @@ I build fast, reliable systems end‑to‑end — from C/epoll servers and x86_6
   Repo: https://github.com/tslime/VectorDB
 
 ## More Projects
+
+- **Data Provenance Tracker** — Lightweight tool to track, log, and hash file transformations for data integrity, auditability, and reproducibility (supports SHA-256, timestamping, JSONL logs, and optional timeline plotting).  
+  Repo: https://github.com/tslime/DataProvenanceTracker
+
 - **Fundamental Algorithms** — core CS algorithms across languages  
   Repo: https://github.com/tslime/FundamentalAlgorithms
 
