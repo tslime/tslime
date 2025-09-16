@@ -37,6 +37,9 @@ I build fast, reliable systems end‑to‑end — from C/epoll servers and x86_6
 
 ## More Projects
 
+- **SecureInferenceGateway** — Secure, API-key protected gateway for serving local AI models via HTTP, designed for internal networks and sensitive environments. Features dynamic model discovery, centralized logging, and easy integration with Ollama for on-premise LLM deployment. Suitable for defense and mission-critical systems with extensible authentication and compliance options.  
+  Repo: https://github.com/tslime/SecureInferenceGateway
+  
 - **Data Provenance Tracker** — Lightweight tool to track, log, and hash file transformations for data integrity, auditability, and reproducibility (supports SHA-256, timestamping, JSONL logs, and optional timeline plotting).  
   Repo: https://github.com/tslime/Datatracker
 
