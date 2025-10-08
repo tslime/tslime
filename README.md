@@ -23,16 +23,17 @@ I build fast, reliable systems end‑to‑end — from C/epoll servers and x86_6
 
 
 ## Selected Projects
-- **Redis Clone in C** — minimalist Redis‑compatible server  
-  Repo: https://github.com/tslime/vRedisClone
+- **Neural Network from Scratch** — minimal DL framework + training loop  
+  Repo: https://github.com/tslime/NeuralNetworkModel
 - **BPE Tokenizer (Python & C++)** — subword tokenizer with heap + hash table  
   Repo: https://github.com/tslime/BPEAlgorithm
 - **Socket Programming Analysis** — concurrency & networking across 4 languages  
   Repo: https://github.com/tslime/NetworkProgramming
+- **Redis Clone in C** — minimalist Redis‑compatible server  
+  Repo: https://github.com/tslime/vRedisClone
 - **SIMD Float Calculator (x86_64)** — NASM + SSE, ASCII/float I/O  
   Repo: https://github.com/tslime/LowLevelProgramming/tree/main/Assemblycaclulator
-- **Neural Network from Scratch** — minimal DL framework + training loop  
-  Repo: https://github.com/tslime/NeuralNetworkModel
+
 - **Vector DB** — A vector database built from scratch in C++ using Hierarchical Navigable Small World (HNSW) graphs. Features index-based design (no pointers), custom heaps, and efficient nearest-neighbor search.  
   Repo: https://github.com/tslime/VectorDB
 
