@@ -7,12 +7,13 @@ Montreal, QC · [CV Projects](#selected-projects) · taha.slime@gmail.com
 I build fast, reliable systems end‑to‑end — from C/epoll servers and x86_64 assembly to Python ML training and model deployment.
 
 ## Highlights
-- Redis‑compatible key‑value store in C (RESP parser, `epoll`, open‑addressing hash table)
+- Fine‑tuning compact LLMs (Phi‑2) with LoRA + 4‑bit; REST integration
 - BPE tokenizer in Python & C++ (max‑heap + custom hash table, benchmarks)
 - Vector database from scratch (L2/cosine, simple APIs, RAG hooks)
 - Cross‑language socket programming (C/C++ `epoll`, Java NIO, Python `asyncio`, Node.js)
 - SIMD float calculator in x86_64 (NASM, SSE; manual parsing/formatting)
-- Fine‑tuning compact LLMs (Phi‑2) with LoRA + 4‑bit; REST integration
+- Redis‑compatible key‑value store in C (RESP parser, `epoll`, open‑addressing hash table)
+
 
 ## What I Build
 - Fast backend infra (Redis clone, tokenizer engine, vector DB)
