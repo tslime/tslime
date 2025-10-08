@@ -37,6 +37,10 @@ I build fast, reliable systems end‑to‑end — from C/epoll servers and x86_6
 
 ## More Projects
 
+- **FlightRecorder** — C++17 telemetry logger and visualizer simulating an aircraft black box.
+Features binary packet serialization, CRC16 validation, and real-time altitude/velocity plotting via Gnuplot, with upcoming support for compression and live streaming.
+Repo: https://github.com/tslime/FlightRecorder
+
 - **Secure Inference Gateway** — Secure, API-key protected gateway for serving local AI models via HTTP, designed for internal networks and sensitive environments. Features dynamic model discovery, centralized logging, and easy integration with Ollama for on-premise LLM deployment. Suitable for defense and mission-critical systems with extensible authentication and compliance options.  
   Repo: https://github.com/tslime/SecureInferenceGateway
   
