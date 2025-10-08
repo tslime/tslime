@@ -39,7 +39,7 @@ I build fast, reliable systems end‑to‑end — from C/epoll servers and x86_6
 
 ## More Projects
 
-- **FlightRecorder** — C++17 telemetry logger and visualizer simulating an aircraft black box.
+- **FlightRecorder/Telemetrie** — C++17 telemetry logger and visualizer simulating an aircraft black box.
 Features binary packet serialization, CRC16 validation, and real-time altitude/velocity plotting via Gnuplot, with upcoming support for compression and live streaming.
 Repo: https://github.com/tslime/FlightRecorder
 
