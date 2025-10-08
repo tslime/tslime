@@ -1,10 +1,10 @@
 # Taha Slime
 
-**Software & Systems Engineer — ML Systems • Full Stack• Low & High Level**
+**Software & Systems Engineer / ML Systems • Full Stack• Low & High Level**
 
 Montreal, QC · [CV Projects](#selected-projects) · taha.slime@gmail.com
 
-I build fast, reliable systems end‑to‑end — from C/epoll servers and x86_64 assembly to Python ML training and model deployment.
+I build fast, reliable systems end‑to‑end. From C/epoll servers and x86_64 assembly to Python ML training and model deployment.
 
 ## Highlights
 - Fine‑tuning compact LLMs (Phi‑2) with LoRA + 4‑bit; REST integration
