@@ -39,6 +39,9 @@ I build fast, reliable systems end‑to‑end. From C/epoll servers and x86_64 a
 
 ## More Projects
 
+- **PIDControllerSimulator** — C++17 closed-loop PID feedback simulator modeling speed regulation with real-time Gnuplot visualization. Demonstrates proportional–integral–derivative control, convergence, and stability tuning.
+Repo: https://github.com/tslime/PIDControllerSimulator
+
 - **FlightRecorder/Telemetrie** — C++17 telemetry logger and visualizer simulating an aircraft black box.
 Features binary packet serialization, CRC16 validation, and real-time altitude/velocity plotting via Gnuplot, with upcoming support for compression and live streaming.
 Repo: https://github.com/tslime/FlightRecorder
