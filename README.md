@@ -23,6 +23,8 @@ I build fast, reliable systems end‑to‑end. From C/epoll servers and x86_64 a
 
 
 ## Selected Projects
+- **SIMD Matrix Algorithm (x86_64)** — NASM + SSE, SIMD-optimized matrix operations  
+  Repo: https://github.com/tslime/SIMDMatrixAlgorithm
 - **Neural Network from Scratch** — minimal DL framework + training loop  
   Repo: https://github.com/tslime/NeuralNetworkModel
 - **BPE Tokenizer (Python & C++)** — subword tokenizer with heap + hash table  
@@ -31,8 +33,7 @@ I build fast, reliable systems end‑to‑end. From C/epoll servers and x86_64 a
   Repo: https://github.com/tslime/NetworkProgramming
 - **Redis Clone in C** — minimalist Redis‑compatible server  
   Repo: https://github.com/tslime/vRedisClone
-- **SIMD Float Calculator (x86_64)** — NASM + SSE, ASCII/float I/O  
-  Repo: https://github.com/tslime/LowLevelProgramming/tree/main/Assemblycaclulator
+
 
 - **Vector DB** — A vector database built from scratch in C++ using Hierarchical Navigable Small World (HNSW) graphs. Features index-based design (no pointers), custom heaps, and efficient nearest-neighbor search.  
   Repo: https://github.com/tslime/VectorDB
