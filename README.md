@@ -62,11 +62,12 @@ Repo: https://github.com/tslime/FlightRecorder
 
 ## Tech
 
-**Languages**: C, C++, Python, Java  
+**Languages**: C, C++, Python, Java, Rust 
 **Systems Programming**: x86_64 NASM (SIMD, SSE), socket programming (epoll, NIO, asyncio), Redis protocol (RESP), compilers/parsers, OS-level tools, embedded & robotics  
 **Machine Learning**: Neural networks, ML algorithms (regression, SVM, trees, clustering), deep learning, synthetic data pipelines, LoRA, 4-bit quantization, PyTorch, TensorFlow  
-**Backend & Full Stack**: Node.js, Express, REST APIs, PostgreSQL, MySQL, React  
-**Infra & DevOps**: Linux, Docker, Kubernetes  
+**Full Stack Web**: Node.js, Express, REST APIs, PostgreSQL, MySQL, React, HTML/CSS, JS/TS (React, Node.js, Express), API REST, PHP, ASP.NET, Spring Boot
+**Infra & DevOps**: MLFlow, Docker, Kubernetes, Terraform, DVC, AWS/Azure, GitHub, CI/CD 
 **Tools**: Git, GitHub, LaTeX, CircleCI  
+**OS**: Linux, Windows, MacOS
 
 
