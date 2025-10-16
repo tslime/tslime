@@ -68,7 +68,8 @@ Repo: https://github.com/tslime/FlightRecorder
 **Full Stack Web:** Node.js, Express, PostgreSQL, MySQL, HTML/CSS, JS/TS (React, Node.js, Express), API REST, PHP, ASP.NET, Spring Boot  
 **Infra & DevOps:** MLFlow, Docker, Kubernetes, Terraform, DVC, AWS/Azure, GitHub, CI/CD  
 **Tools:** Git, GitHub, LaTeX, CircleCI  
-**OS:** Linux, Windows, MacOS
+**OS:** Linux, Windows, MacOS  
+
 
 
 
