@@ -22,42 +22,63 @@ I build fast, reliable systems end‑to‑end. From C/epoll servers and x86_64 a
 - Cross-language low-level systems (C, C++, Python, NASM, Java, Node.js)
 
 
-## Selected Projects
-- **SIMD Matrix Algorithm (x86_64)** — NASM + SSE, SIMD-optimized matrix operations  
-  Repo: https://github.com/tslime/SIMDMatrixAlgorithm
-- **Neural Network from Scratch** — minimal DL framework + training loop  
-  Repo: https://github.com/tslime/NeuralNetworkModel
-- **BPE Tokenizer (Python & C++)** — subword tokenizer with heap + hash table  
-  Repo: https://github.com/tslime/BPEAlgorithm
-- **Socket Programming Analysis** — concurrency & networking across 4 languages  
-  Repo: https://github.com/tslime/NetworkProgramming
-- **Redis Clone in C** — minimalist Redis‑compatible server  
-  Repo: https://github.com/tslime/vRedisClone
+## 🧠 Selected Projects
 
+### 🤖 AI & Machine Learning
+- **Neural Network from Scratch** — Minimal deep learning framework implementing backpropagation, gradient descent, and activation functions using NumPy.  
+  🔗 Repo: [tslime/NeuralNetworkModel](https://github.com/tslime/NeuralNetworkModel)
 
-- **Vector DB** — A vector database built from scratch in C++ using Hierarchical Navigable Small World (HNSW) graphs. Features index-based design (no pointers), custom heaps, and efficient nearest-neighbor search.  
-  Repo: https://github.com/tslime/VectorDB
+- **BPE Tokenizer (Python & C++)** — Custom subword tokenizer using Byte Pair Encoding with heap-based pair frequency tracking and hash table indexing.  
+  🔗 Repo: [tslime/BPEAlgorithm](https://github.com/tslime/BPEAlgorithm)
 
-## More Projects
+- **VectorDB (C++)** — Vector database built from scratch using Hierarchical Navigable Small World (HNSW) graphs. Features index-based design, custom heaps, and efficient nearest-neighbor search.  
+  🔗 Repo: [tslime/VectorDB](https://github.com/tslime/VectorDB)
 
-- **PIDControllerSimulator** — C++17 closed-loop PID feedback simulator modeling speed regulation with real-time Gnuplot visualization. Demonstrates proportional–integral–derivative control, convergence, and stability tuning.
-  Repo: https://github.com/tslime/PIDControllerSimulator
+- **Phi-2 Fine-Tuning Suite** — Framework for fine-tuning small language models using synthetic datasets, LoRA, and 4-bit quantization on multi-GPU systems.  
+  🔗 Repo: [tslime/Phi2FineTuningSuite](#)
 
-- **FlightRecorder/Telemetrie** — C++17 telemetry logger and visualizer simulating an aircraft black box.
-Features binary packet serialization, CRC16 validation, and real-time altitude/velocity plotting via Gnuplot, with upcoming support for compression and live streaming.
-Repo: https://github.com/tslime/FlightRecorder
+---
 
-- **Secure Inference Gateway** — Secure, API-key protected gateway for serving local AI models via HTTP, designed for internal networks and sensitive environments. Features dynamic model discovery, centralized logging, and easy integration with Ollama for on-premise LLM deployment. Suitable for defense and mission-critical systems with extensible authentication and compliance options.  
-  Repo: https://github.com/tslime/SecureInferenceGateway
-  
-- **Data Provenance Tracker** — Lightweight tool to track, log, and hash file transformations for data integrity, auditability, and reproducibility (supports SHA-256, timestamping, JSONL logs, and optional timeline plotting).  
-  Repo: https://github.com/tslime/Datatracker
+### ⚙️ Systems & Performance Engineering
+- **SIMD Matrix Algorithm (x86_64)** — NASM + SSE/AVX optimized matrix operations with loop unrolling, memory alignment, and RDTSC benchmarking.  
+  🔗 Repo: [tslime/SIMDMatrixAlgorithm](https://github.com/tslime/SIMDMatrixAlgorithm)
 
-- **Fundamental Algorithms** — core CS algorithms across languages  
-  Repo: https://github.com/tslime/FundamentalAlgorithms
+- **Redis Clone (C)** — Minimalist Redis-compatible server built from scratch with custom TCP networking, RESP parser, and multi-client concurrency.  
+  🔗 Repo: [tslime/vRedisClone](https://github.com/tslime/vRedisClone)
 
-- **Special Data Structures** — Experimental and advanced structures built from scratch (custom hash tables, HNSW index for vector search, max-heaps for BPE, etc.).  
-  Repo: https://github.com/tslime/SpecialDataStructures
+- **Socket Programming Analysis** — Cross-language networking study (C, C++, Java, Python) using concurrency models such as epoll, fork, NIO, and asyncio.  
+  🔗 Repo: [tslime/NetworkProgramming](https://github.com/tslime/NetworkProgramming)
+
+- **ROSKernel (Microkernel)** — Custom x86 microkernel with bootloader, GDT setup, protected mode transition, and early paging/IDT initialization.  
+  🔗 Repo: [tslime/ROSKernel](#)
+
+---
+
+### 🔒 Security & Infrastructure
+- **Secure Inference Gateway** — FastAPI-based secure gateway for serving local AI models (Ollama). Supports API-key authentication, model discovery, centralized logging, and compliance-ready configuration.  
+  🔗 Repo: [tslime/SecureInferenceGateway](https://github.com/tslime/SecureInferenceGateway)
+
+- **Data Provenance Tracker** — Lightweight tool to log, hash, and audit data transformations for integrity and reproducibility. Supports SHA-256, timestamping, and JSONL-based provenance chains.  
+  🔗 Repo: [tslime/Datatracker](https://github.com/tslime/Datatracker)
+
+---
+
+### 🧠 Simulation & Control Systems
+- **PID Controller Simulator (C++)** — Real-time closed-loop feedback system visualized with Gnuplot. Demonstrates proportional, integral, and derivative tuning and system stability.  
+  🔗 Repo: [tslime/PIDControllerSimulator](https://github.com/tslime/PIDControllerSimulator)
+
+- **Flight Recorder / Telemetry (C++)** — Aircraft telemetry simulator with binary packet serialization, CRC-16 validation, and live altitude/velocity plotting via Gnuplot.  
+  🔗 Repo: [tslime/FlightRecorder](https://github.com/tslime/FlightRecorder)
+
+---
+
+### 🧩 Core Algorithms & Data Structures
+- **Special Data Structures** — Experimental implementations of advanced structures (custom hash tables, max-heaps for BPE, HNSW indexes).  
+  🔗 Repo: [tslime/SpecialDataStructures](https://github.com/tslime/SpecialDataStructures)
+
+- **Fundamental Algorithms** — Core computer-science algorithms implemented across multiple languages for clarity and benchmarking.  
+  🔗 Repo: [tslime/FundamentalAlgorithms](https://github.com/tslime/FundamentalAlgorithms)
+
 
 
 ## Tech
