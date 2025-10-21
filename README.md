@@ -34,8 +34,6 @@ I build fast, reliable systems end‑to‑end. From C/epoll servers and x86_64 a
 - **VectorDB (C++)** — Vector database built from scratch using Hierarchical Navigable Small World (HNSW) graphs. Features index-based design, custom heaps, and efficient nearest-neighbor search.  
   🔗 Repo: [tslime/VectorDB](https://github.com/tslime/VectorDB)
 
-- **Phi-2 Fine-Tuning Suite** — Framework for fine-tuning small language models using synthetic datasets, LoRA, and 4-bit quantization on multi-GPU systems.  
-  🔗 Repo: [tslime/Phi2FineTuningSuite](#)
 
 ---
 
@@ -49,8 +47,7 @@ I build fast, reliable systems end‑to‑end. From C/epoll servers and x86_64 a
 - **Socket Programming Analysis** — Cross-language networking study (C, C++, Java, Python) using concurrency models such as epoll, fork, NIO, and asyncio.  
   🔗 Repo: [tslime/NetworkProgramming](https://github.com/tslime/NetworkProgramming)
 
-- **ROSKernel (Microkernel)** — Custom x86 microkernel with bootloader, GDT setup, protected mode transition, and early paging/IDT initialization.  
-  🔗 Repo: [tslime/ROSKernel](#)
+
 
 ---
 
