@@ -7,7 +7,7 @@ Montreal, QC · [CV Projects](#selected-projects) · taha.slime@gmail.com
 I build fast, reliable systems end‑to‑end. From C/epoll servers and x86_64 assembly to Python ML training and model deployment.
 
 ## Highlights
-- Fine‑tuning compact LLMs (Phi‑2) with LoRA + 4‑bit; REST integration
+- Fine‑tuning compact LLMs (Phi‑2,TinyLLama,Bert-Mini) with LoRA + 4‑bit; REST integration
 - BPE tokenizer in Python & C++ (max‑heap + custom hash table, benchmarks)
 - Vector database from scratch (L2/cosine, simple APIs, RAG hooks)
 - Cross‑language socket programming (C/C++ `epoll`, Java NIO, Python `asyncio`, Node.js)
