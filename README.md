@@ -51,7 +51,10 @@ I build fast, reliable systems end‑to‑end. From C/epoll servers and x86_64 a
 
 ---
 
-### 🔒 Security & Infrastructure
+### 🔒 Security, Infrastructure, Back-End, APIs
+- **FastCRUDAPI** — Node.js and Express-based RESTful API featuring both JSON and MongoDB backends. Includes input validation, Helmet/CORS security, rate limiting, and integrated Prometheus–Grafana monitoring for real-time observability.  
+  🔗 Repo: [tslime/FastCRUDAPI](https://github.com/tslime/FastCRUDAPI)
+
 - **Secure Inference Gateway** — FastAPI-based secure gateway for serving local AI models (Ollama). Supports API-key authentication, model discovery, centralized logging, and compliance-ready configuration.  
   🔗 Repo: [tslime/SecureInferenceGateway](https://github.com/tslime/SecureInferenceGateway)
 
