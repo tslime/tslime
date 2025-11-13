@@ -16,10 +16,12 @@ jobs:
         with:
           token: ${{ secrets.METRIC_TOKEN }}
           user: tslime
-          base: header, activity, community, repositories, metadata
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: chartist
-          plugin_habits_days: 30
-          plugin_habits_from: 200
+          base: ""
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user
+          plugin_followup_indepth: yes
           config_timezone: UTC
+          config_display: large
+          config_animations: yes
+          template: classic
+          config_padding: 0, 8 + 11%
