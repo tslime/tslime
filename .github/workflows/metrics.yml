@@ -1,0 +1,32 @@
+name: Metrics
+
+on:
+  # Schedule updates (once a day at 6 AM UTC)
+  schedule:
+    - cron: "0 6 * * *"
+  # Manual trigger
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # Use your GitHub username here
+          user: tslime
+          # Use your profile repo name here
+          repo: tslime
+          # Enable activity chart plugin (the spider/radar chart)
+          plugin_activities: yes
+          # Show breakdown and legend (optional, enhances readability)
+          plugin_activities_limit: 5
+          plugin_activities_days: 30
+          plugin_activities_sections: history, chart
+          plugin_activities: yes
+          # To only get the chart and not the text stats set:
+          plugin_activities_recent: yes
+          plugin_activities_charts: yes
+          # Theme (the chart theme is dark by default, but you can customize)
+          config_timezone: UTC
