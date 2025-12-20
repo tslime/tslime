@@ -52,6 +52,10 @@ I build fast, reliable systems end‑to‑end. From C/epoll servers and x86_64 a
 ---
 
 ### 🔒 Security, Infrastructure, Back-End, APIs
+
+- **FastAPI Feature Pipeline** — Async data processing service for real-time offer assignment. Fetches member data, computes ML features, orchestrates external predictions (ATS/RESP), and assigns personalized offers. Built with FastAPI, async/await for high concurrency, comprehensive CSV logging, error handling, and CI/CD pipeline integration.
+  🔗 Repo: [tslime/fastapi-features-pipeline](https://github.com/tslime/fastapi-features-pipeline)
+
 - **FastCRUDAPI** — Node.js and Express-based RESTful API featuring both JSON and MongoDB backends. Includes input validation, Helmet/CORS security, rate limiting, and integrated Prometheus–Grafana monitoring for real-time observability.  
   🔗 Repo: [tslime/FastCRUDAPI](https://github.com/tslime/FastCRUDAPI)
 
