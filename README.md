@@ -29,7 +29,7 @@ I build fast, reliable systems end‑to‑end. From C/epoll servers and x86_64 a
   🔗 Repo: [tslime/report-multi-agent](https://github.com/tslime/report-multi-agent)
   
 - **AI Data Analysis Agent** — Conversational agent for statistical analysis of CSV datasets using natural language queries powered by Azure OpenAI and LangChain pandas agents.   
-  🔗 Repo: [tslime/ai-data-analysis-agent](https://github.com/tslime/ai-data-analysis-agent)
+  🔗 Repo: [tslime/ai-data-analysis-agent](https://github.com/tslime/analysis-agent)
   
 - **Neural Network from Scratch** — Minimal deep learning framework implementing backpropagation, gradient descent, and activation functions using NumPy.  
   🔗 Repo: [tslime/NeuralNetworkModel](https://github.com/tslime/NeuralNetworkModel)
