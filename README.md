@@ -25,6 +25,9 @@ I build fast, reliable systems end‑to‑end. From C/epoll servers and x86_64 a
 ## 🧠 Selected Projects
 
 ### 🤖 AI & Machine Learning
+- **Multi-Agent Orchestration System** — Intelligent agent workflow using LangGraph state machines for supervised routing, pandas-powered analysis, and professional report generation.  
+  🔗 Repo: [tslime/report-multi-agent](https://github.com/tslime/report-multi-agent)
+  
 - **AI Data Analysis Agent** — Conversational agent for statistical analysis of CSV datasets using natural language queries powered by Azure OpenAI and LangChain pandas agents.   
   🔗 Repo: [tslime/ai-data-analysis-agent](https://github.com/tslime/ai-data-analysis-agent)
   
