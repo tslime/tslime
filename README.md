@@ -7,7 +7,9 @@ I engineer efficient systems and AI/ML platforms, bridging low-level infrastruct
 
 ---
 
-## Selected Projects
+
+# Selected Projects
+
 
 ### AI & Machine Learning
 
@@ -31,6 +33,8 @@ I engineer efficient systems and AI/ML platforms, bridging low-level infrastruct
   Vector database from scratch using HNSW graphs, index-based design, custom heaps, and efficient nearest-neighbor search.  
   Repo: [github.com/tslime/VectorDB](https://github.com/tslime/VectorDB)
 
+---
+
 ### Systems & Performance Engineering
 
 - **SIMD Matrix Algorithm (x86_64)**  
@@ -44,6 +48,8 @@ I engineer efficient systems and AI/ML platforms, bridging low-level infrastruct
 - **Socket Programming Analysis**  
   Cross-language networking study (C, C++, Java, Python) using epoll, fork, NIO, and asyncio.  
   Repo: [github.com/tslime/NetworkProgramming](https://github.com/tslime/NetworkProgramming)
+
+---
 
 ### Security, Infrastructure, Back-End, APIs
 
@@ -63,6 +69,8 @@ I engineer efficient systems and AI/ML platforms, bridging low-level infrastruct
   Logs, hashes (SHA-256), and audits data transformations for integrity and reproducibility. JSONL-based provenance chains.  
   Repo: [github.com/tslime/Datatracker](https://github.com/tslime/Datatracker)
 
+---
+
 ### Simulation & Control Systems
 
 - **PID Controller Simulator (C++)**  
@@ -72,6 +80,8 @@ I engineer efficient systems and AI/ML platforms, bridging low-level infrastruct
 - **Flight Recorder / Telemetry (C++)**  
   Aircraft telemetry simulator: binary packet serialization, CRC-16 validation, live altitude/velocity plotting via Gnuplot.  
   Repo: [github.com/tslime/FlightRecorder](https://github.com/tslime/FlightRecorder)
+
+---
 
 ### Core Algorithms & Data Structures
 
@@ -83,9 +93,10 @@ I engineer efficient systems and AI/ML platforms, bridging low-level infrastruct
   Core CS algorithms in multiple languages for clarity and benchmarking.  
   Repo: [github.com/tslime/FundamentalAlgorithms](https://github.com/tslime/FundamentalAlgorithms)
 
+
 ---
 
-## Tech Stack
+# Tech Stack
 
 **Languages:** C, C++, Rust, Python, Java, Go, C#, Shell, Assembler, VHDL  
 **ML & Data:** PyTorch, TensorFlow, Scikit-learn, Pandas, RAGs, PySpark, Databricks, CUDA  
@@ -96,4 +107,8 @@ I engineer efficient systems and AI/ML platforms, bridging low-level infrastruct
 **Scientific/Visualization:** MATLAB, Simulink, Mathematica, NumPy, Matplotlib, Gnuplot  
 **Modeling:** UML, SysML, Draw.io, Papyrus  
 **OS:** Linux/UNIX, Windows, macOS  
-**Tools:** Git, GitHub, LaTeX, Vim/Emacs  
+**Tools:** Git, GitHub, LaTeX, Vim/Emacs 
+
+
+
+
