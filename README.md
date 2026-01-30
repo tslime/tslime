@@ -1,105 +1,110 @@
 # Taha Slime
 
-**Software & Systems Engineer / ML Systems • Full Stack• Low & High Level**
+**Software, Systems & AI/ML Engineer**  
+Montreal, QC · [Projects](#selected-projects) · taha.slime@gmail.com
 
-Montreal, QC · [CV Projects](#selected-projects) · taha.slime@gmail.com
-
-I build fast, reliable systems end‑to‑end. From C/epoll servers and x86_64 assembly to Python ML training and model deployment.
-
-## Highlights
-- Fine‑tuning compact LLMs (Phi‑2,TinyLLama,Bert-Mini) with LoRA + 4‑bit; REST integration
-- BPE tokenizer in Python & C++ (max‑heap + custom hash table, benchmarks)
-- Vector database from scratch (L2/cosine, simple APIs, RAG hooks)
-- Cross‑language socket programming (C/C++ `epoll`, Java NIO, Python `asyncio`, Node.js)
-- SIMD float calculator in x86_64 (NASM, SSE; manual parsing/formatting)
-- Redis‑compatible key‑value store in C (RESP parser, `epoll`, open‑addressing hash table)
+I engineer efficient systems and AI/ML platforms, bridging low-level infrastructure with modern machine learning deployment.
 
 
-## What I Build
-- Fast backend infra (Redis clone, tokenizer engine, vector DB)
-- From-scratch implementations (hash tables, epoll servers, RESP parser, BPE)
-- End-to-end ML pipelines (LoRA, tokenization, deployment)
-- Cross-language low-level systems (C, C++, Python, NASM, Java, Node.js)
 
 
-## 🧠 Selected Projects
+## Selected Projects
 
-### 🤖 AI & Machine Learning
-- **Multi-Agent Orchestration System** — Intelligent agent workflow using LangGraph state machines for supervised routing, pandas-powered analysis, and professional report generation.  
-  🔗 Repo: [tslime/report-multi-agent](https://github.com/tslime/report-multi-agent)
-  
-- **AI Data Analysis Agent** — Conversational agent for statistical analysis of CSV datasets using natural language queries powered by Azure OpenAI and LangChain pandas agents.   
-  🔗 Repo: [tslime/analysis-agent](https://github.com/tslime/analysis-agent)
-  
-- **Neural Network from Scratch** — Minimal deep learning framework implementing backpropagation, gradient descent, and activation functions using NumPy.  
-  🔗 Repo: [tslime/NeuralNetworkModel](https://github.com/tslime/NeuralNetworkModel)
+### AI & Machine Learning
 
-- **BPE Tokenizer (Python & C++)** — Custom subword tokenizer using Byte Pair Encoding with heap-based pair frequency tracking and hash table indexing.  
-  🔗 Repo: [tslime/BPEAlgorithm](https://github.com/tslime/BPEAlgorithm)
+- **Multi-Agent Orchestration System**  
+  Intelligent agent workflow using LangGraph state machines, pandas-powered analysis, and professional report generation.  
+  Repo: [github.com/tslime/report-multi-agent](https://github.com/tslime/report-multi-agent)
 
-- **VectorDB (C++)** — Vector database built from scratch using Hierarchical Navigable Small World (HNSW) graphs. Features index-based design, custom heaps, and efficient nearest-neighbor search.  
-  🔗 Repo: [tslime/VectorDB](https://github.com/tslime/VectorDB)
+- **AI Data Analysis Agent**  
+  Conversational agent for statistical analysis of CSV datasets using Azure OpenAI and LangChain pandas agents.  
+  Repo: [github.com/tslime/analysis-agent](https://github.com/tslime/analysis-agent)
 
+- **Neural Network from Scratch**  
+  Minimal deep learning framework implementing backpropagation, gradient descent, and activation functions using NumPy.  
+  Repo: [github.com/tslime/NeuralNetworkModel](https://github.com/tslime/NeuralNetworkModel)
+
+- **BPE Tokenizer (Python & C++)**  
+  Custom subword tokenizer with heap-based pair frequency tracking and hash table indexing.  
+  Repo: [github.com/tslime/BPEAlgorithm](https://github.com/tslime/BPEAlgorithm)
+
+- **VectorDB (C++)**  
+  Vector database from scratch using HNSW graphs, index-based design, custom heaps, and efficient nearest-neighbor search.  
+  Repo: [github.com/tslime/VectorDB](https://github.com/tslime/VectorDB)
 
 ---
 
-### ⚙️ Systems & Performance Engineering
-- **SIMD Matrix Algorithm (x86_64)** — NASM + SSE/AVX optimized matrix operations with loop unrolling, memory alignment, and RDTSC benchmarking.  
-  🔗 Repo: [tslime/SIMDMatrixAlgorithm](https://github.com/tslime/SIMDMatrixAlgorithm)
+### Systems & Performance Engineering
 
-- **Redis Clone (C)** — Minimalist Redis-compatible server built from scratch with custom TCP networking, RESP parser, and multi-client concurrency.  
-  🔗 Repo: [tslime/vRedisClone](https://github.com/tslime/vRedisClone)
+- **SIMD Matrix Algorithm (x86_64)**  
+  NASM + SSE/AVX optimized matrix operations with loop unrolling, memory alignment, and RDTSC benchmarking.  
+  Repo: [github.com/tslime/SIMDMatrixAlgorithm](https://github.com/tslime/SIMDMatrixAlgorithm)
 
-- **Socket Programming Analysis** — Cross-language networking study (C, C++, Java, Python) using concurrency models such as epoll, fork, NIO, and asyncio.  
-  🔗 Repo: [tslime/NetworkProgramming](https://github.com/tslime/NetworkProgramming)
+- **Redis Clone (C)**  
+  Minimalist Redis-compatible server built from scratch with custom TCP networking, RESP parser, and multi-client concurrency.  
+  Repo: [github.com/tslime/vRedisClone](https://github.com/tslime/vRedisClone)
 
-
-
----
-
-### 🔒 Security, Infrastructure, Back-End, APIs
-
-- **FastAPI Feature Pipeline** — Async data processing service for real-time offer assignment. Fetches member data, computes ML features, orchestrates external predictions (ATS/RESP), and assigns personalized offers. Built with FastAPI, async/await for high concurrency, comprehensive CSV logging, error handling, and CI/CD pipeline integration.  
-🔗 Repo: [tslime/fastapi-features-pipeline](https://github.com/tslime/fastapi-features-pipeline)
-
-- **FastCRUDAPI** — Node.js and Express-based RESTful API featuring both JSON and MongoDB backends. Includes input validation, Helmet/CORS security, rate limiting, and integrated Prometheus–Grafana monitoring for real-time observability.  
-  🔗 Repo: [tslime/FastCRUDAPI](https://github.com/tslime/FastCRUDAPI)
-
-- **Secure Inference Gateway** — FastAPI-based secure gateway for serving local AI models (Ollama). Supports API-key authentication, model discovery, centralized logging, and compliance-ready configuration.  
-  🔗 Repo: [tslime/SecureInferenceGateway](https://github.com/tslime/SecureInferenceGateway)
-
-- **Data Provenance Tracker** — Lightweight tool to log, hash, and audit data transformations for integrity and reproducibility. Supports SHA-256, timestamping, and JSONL-based provenance chains.  
-  🔗 Repo: [tslime/Datatracker](https://github.com/tslime/Datatracker)
+- **Socket Programming Analysis**  
+  Cross-language networking study (C, C++, Java, Python) using epoll, fork, NIO, and asyncio.  
+  Repo: [github.com/tslime/NetworkProgramming](https://github.com/tslime/NetworkProgramming)
 
 ---
 
-### 🧠 Simulation & Control Systems
-- **PID Controller Simulator (C++)** — Real-time closed-loop feedback system visualized with Gnuplot. Demonstrates proportional, integral, and derivative tuning and system stability.  
-  🔗 Repo: [tslime/PIDControllerSimulator](https://github.com/tslime/PIDControllerSimulator)
+### Security, Infrastructure, Back-End, APIs
 
-- **Flight Recorder / Telemetry (C++)** — Aircraft telemetry simulator with binary packet serialization, CRC-16 validation, and live altitude/velocity plotting via Gnuplot.  
-  🔗 Repo: [tslime/FlightRecorder](https://github.com/tslime/FlightRecorder)
+- **FastAPI Feature Pipeline**  
+  Async data processing service for real-time offer assignment: member data fetch, ML feature computation, and external predictions (ATS/RESP). FastAPI, high concurrency, CSV logging, error handling, CI/CD.  
+  Repo: [github.com/tslime/fastapi-features-pipeline](https://github.com/tslime/fastapi-features-pipeline)
+
+- **FastCRUDAPI**  
+  Node.js/Express RESTful API (JSON/MongoDB), input validation, Helmet/CORS security, rate limiting, Prometheus–Grafana monitoring.  
+  Repo: [github.com/tslime/FastCRUDAPI](https://github.com/tslime/FastCRUDAPI)
+
+- **Secure Inference Gateway**  
+  FastAPI-based secure gateway for serving local AI models (Ollama). API-key authentication, model discovery, centralized logging, compliance-ready.  
+  Repo: [github.com/tslime/SecureInferenceGateway](https://github.com/tslime/SecureInferenceGateway)
+
+- **Data Provenance Tracker**  
+  Logs, hashes (SHA-256), and audits data transformations for integrity and reproducibility. JSONL-based provenance chains.  
+  Repo: [github.com/tslime/Datatracker](https://github.com/tslime/Datatracker)
 
 ---
 
-### 🧩 Core Algorithms & Data Structures
-- **Special Data Structures** — Experimental implementations of advanced structures (custom hash tables, max-heaps for BPE, HNSW indexes).  
-  🔗 Repo: [tslime/SpecialDataStructures](https://github.com/tslime/SpecialDataStructures)
+### Simulation & Control Systems
 
-- **Fundamental Algorithms** — Core computer-science algorithms implemented across multiple languages for clarity and benchmarking.  
-  🔗 Repo: [tslime/FundamentalAlgorithms](https://github.com/tslime/FundamentalAlgorithms)
+- **PID Controller Simulator (C++)**  
+  Real-time closed-loop feedback system, visualized with Gnuplot; proportional, integral, and derivative tuning and system stability.  
+  Repo: [github.com/tslime/PIDControllerSimulator](https://github.com/tslime/PIDControllerSimulator)
+
+- **Flight Recorder / Telemetry (C++)**  
+  Aircraft telemetry simulator: binary packet serialization, CRC-16 validation, live altitude/velocity plotting via Gnuplot.  
+  Repo: [github.com/tslime/FlightRecorder](https://github.com/tslime/FlightRecorder)
+
+---
+
+### Core Algorithms & Data Structures
+
+- **Special Data Structures**  
+  Experimental implementations: custom hash tables, max-heaps for BPE, HNSW indexes.  
+  Repo: [github.com/tslime/SpecialDataStructures](https://github.com/tslime/SpecialDataStructures)
+
+- **Fundamental Algorithms**  
+  Core CS algorithms in multiple languages for clarity and benchmarking.  
+  Repo: [github.com/tslime/FundamentalAlgorithms](https://github.com/tslime/FundamentalAlgorithms)
 
 
+## Tech Stack
 
-## Tech
-
-**Languages:** C, C++, Python, Java, Rust  
-**Systems Programming:** x86_64 NASM (SIMD, SSE), socket programming (epoll, NIO, asyncio), Redis protocol (RESP), compilers/parsers, OS-level tools, embedded & robotics  
-**Machine Learning:** Neural networks, ML algorithms (regression, SVM, trees, clustering), deep learning, synthetic data pipelines, LoRA, 4-bit quantization, PyTorch, TensorFlow  
-**Full Stack Web:** Node.js, Express, PostgreSQL, MySQL, HTML/CSS, JS/TS (React, Node.js, Express), API REST, PHP, ASP.NET, Spring Boot  
-**Infra & DevOps:** MLFlow, Docker, Kubernetes, Terraform, DVC, AWS/Azure, GitHub, CI/CD  
-**Tools:** Git, GitHub, LaTeX, CircleCI  
-**OS:** Linux, Windows, MacOS  
+**Languages:** C, C++, Rust, Python, Java, Go, C#, Shell, Assembler, VHDL  
+**ML & Data:** PyTorch, TensorFlow, Scikit-learn, Pandas, RAGs, PySpark, Databricks, CUDA  
+**Systems:** x86_64 NASM, socket programming (epoll/NIO/asyncio/UDP/TCP), Redis protocol, compilers/parsers, embedded/robotics  
+**DevOps & Infra:** Docker, Kubernetes, Terraform, MLflow, Airflow, DVC, GitHub Actions, Prometheus/Grafana, AWS, Azure, OpenStack, VMWare  
+**Web:** Node.js, Express, React, Spring Boot, ASP.NET, PHP, REST APIs, HTML/CSS, JS/TS  
+**Databases:** PostgreSQL, MySQL, MongoDB, Redis, NoSQL (JSON/XML), Vector DBs  
+**Scientific/Visualization:** MATLAB, Simulink, Mathematica, NumPy, Matplotlib, Gnuplot  
+**Modeling:** UML, SysML, Draw.io, Papyrus  
+**OS:** Linux/UNIX, Windows, macOS  
+**Tools:** Git, GitHub, LaTeX, Vim/Emacs 
 
 
 
