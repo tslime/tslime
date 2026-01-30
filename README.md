@@ -5,7 +5,7 @@ Montreal, QC · [Projects](#selected-projects) · taha.slime@gmail.com
 
 I engineer efficient systems and AI/ML platforms, bridging low-level infrastructure with modern machine learning deployment.
 
----
+
 
 
 # Selected Projects
@@ -94,7 +94,6 @@ I engineer efficient systems and AI/ML platforms, bridging low-level infrastruct
   Repo: [github.com/tslime/FundamentalAlgorithms](https://github.com/tslime/FundamentalAlgorithms)
 
 
----
 
 # Tech Stack
 
