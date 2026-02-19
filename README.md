@@ -1,7 +1,9 @@
+<img src="https://komarev.com/ghpvc/?username=tslime&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" align="right" />
+
 # Taha Slime
 
 **Software, Systems & AI/ML Engineer**  
-Montreal, QC · [Projects](#selected-projects) · taha.slime@gmail.com
+Montreal, QC · [Projects](#selected-projects) · taha.slime@gmail.com 
 
 I engineer efficient systems and AI/ML platforms, bridging low-level infrastructure with modern machine learning deployment.
 
